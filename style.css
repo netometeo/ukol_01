@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*
+Nahoře magie - nesahat
+------------------------------------------------
+*/
+section {
+	background-color: white;
+}
+
+a {
+  color: black; 
+}
+
+a:hover {
+  color: navy; 
+}
+
+h1 {
+  color: black;
+  background-color: whitesmoke;
+
+
+
+  font-style: normal; 
+
+	font-weight: bold; 
+
+	font-family: "Source Sans Pro", serif;
+
+	font-size: 2.0rem;
+
+	text-align: center;
+}
+
+
+p {
+
+	font-style: normal; 
+
+	font-weight: bold; 
+
+	font-family: "Montserrat", serif;
+
+	font-size: 0.9rem;
+
+	text-align: block;
+}
+
+li {
+
+	font-style: normal; 
+
+	font-weight: bold; 
+
+	font-family: "Montserrat", serif;
+
+	font-size: 0.9rem;
+
+	text-align: left;
+}
+
+.foto-klara {
+  float: left;
+  margin-right: 2rem;
+	width: 20%;
+	height: 20%;
+	max-width: 20%;
+}
